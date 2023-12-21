@@ -1,0 +1,193 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing:border-box
+}
+
+.container{
+    width: 80%;
+}
+header{
+    background-color: #DB3020;
+}
+header img{
+    height:100px;
+    width:100px;
+    display:block;
+}
+nav{
+    background-color:#faa141;
+}
+.menu{
+    float:left;
+}
+.menu a{
+    display: inline-block;
+    padding:10px 10px;
+    font-size: 16 px;
+    font-family: 'poppins';
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+color: white ;
+}
+.search{
+    float: right;
+    padding: 5px;
+}
+.search input{
+    padding:8px;
+    margin: 2px;
+    width: 200px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.search img{
+    height: 20px;
+    margin: 2px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+
+}
+.clear{
+    clear:both;
+}.search input{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #0a0801;
+    border-radius: 20px;
+    /* height: 20px; */
+} 
+
+.clear{
+    clear: both;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #faa141;
+    padding: 30px;
+}
+.info h2{
+    color:black;
+    font-size: 30px;
+    font-family: 'poppins';
+}
+.info span{
+     
+     color:black;
+     font-family:'poppins';
+     display: block;
+}
+.info a{
+    margin: 10px 0;
+    background-color:white;
+    color:darkred;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 18px;
+    font-family:'poppins';  
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    margin-top: 40px;
+    background-color: white;
+}
+.box{
+background-color:rgb(209, 190, 190);
+width: 33%;
+position: relative;
+}
+.box img{
+    width: 100%;
+    display: block;
+}
+.box h3{
+    color: #0a0801;
+    font-size:30px;
+    font-family: 'poppins';
+}
+.hot,.stocked,.discount{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'poppins';
+}
+.hot{
+    background-color: black;
+    color:white;
+}
+.stocked{
+    background-color:black;
+    color:aliceblue;
+}
+.discount{
+    background-color: #0a0801;
+    color: #e6e2d3;
+}
+.newsletter form{
+    display: block;
+    text-align: center;
+   
+}
+.newsletter{
+    background-color: #DB3020;
+    padding: 10px 0;
+}
+    
+.newsletter input[type=text]{
+    padding:10px;
+    width: 300px;
+    border: 1px solid black;
+}
+.newsletter input[type=submit]{
+    padding: 10px;
+    width:100px;
+    background-color: #DB3020;
+    color: white;
+    border:none;
+}
+.newsletter h4{
+color: white;
+font-family: cursive ;
+}
+footer{
+    padding: 10px;
+}
+.footer_boxes{
+display: flex;
+}
+
+.footer_boxes h5{
+   color:#DB302A ; 
+   font-size: 20px;
+   font-family: 'poppins';
+}
+.footer_boxes ul{
+    list-style: none;
+}
+.footer_boxes ul li{
+padding:5px 0;
+}
+.footer_boxes ul li a{
+    color: black;
+    font-family: 'poppins';
+    font-size:16px;
+    text-decoration: none;
+}
